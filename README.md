@@ -9,6 +9,10 @@ The classifier requires the following:
 2. python (version >= 3.7)
 3. The following R-packages: DESeq2, Seurat, sctransform
 
+# Installation:
+Run the following on your terminal (has been tested on macOS Mojave -version 10.14.6 and Ubuntu 16.04.6 LTS)
+git clone https://github.com/bonifaciolab/classifier_AntigenResponsiveCD8TCells/
+
 # Pre-requisities:
 The classifier requires a counts-matrix that contains information about the gene expression values of the marker genes
 If a plate based method such as SMART-SEQ2 was used, the counts matrix (produced by aligning the raw reads to the reference human genome using an aligner such as STAR and associating counts to genes using featureCounts) is normalised using DESeq2's normTransform function

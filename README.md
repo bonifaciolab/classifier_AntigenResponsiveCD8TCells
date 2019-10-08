@@ -37,7 +37,7 @@ Rscript input_for_Classifier_10X.R $input_counts $input_counts_normalized
 ### Now you are ready to run the classifier
 ```
 export output_dir= ## the directory where your results will be produced. If the directory does not exist, then it will be created.
-export svm_path= ## the path to the directory that contains the svm binaries
+export svm_path= ## the path to the directory that contains the lib-svm binaries
 
 python3 identify_activated_cells_SVM.py $input_counts_normalized $output_dir $svm_path
 ```

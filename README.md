@@ -11,7 +11,9 @@ The classifier requires the following:
 
 # Installation:
 Run the following on your terminal (has been tested on macOS Mojave -version 10.14.6 and Ubuntu 16.04.6 LTS)
+```
 git clone https://github.com/bonifaciolab/classifier_AntigenResponsiveCD8TCells/
+```
 
 # Pre-requisities:
 The classifier requires a counts-matrix that contains information about the gene expression values of the marker genes
